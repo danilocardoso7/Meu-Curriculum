@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+}
+h1, h2, h3{
+    text-transform: uppercase;
+}
+#header{
+    background-color: rgb(231, 203, 166);
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-family: "Hubballi";
+}
+#nameAndTitle{
+    background-color: white;
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+}
+#nameAndTitle h1, h2{
+    margin: 0;
+}
+#contact{
+    list-style-type: none;
+    padding: 0;
+}
+#contact i{
+    width: 30px;
+    color: rgb(231, 203, 166);
+}
+#container{
+    grid-template-columns: 30% auto;
+    display: grid;
+    grid-column-gap: 20px;
+}
+#sidebar, #content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.card h3{
+    font-family: "Hubballi";
+}
+.card {
+    font-family: "Montserrat";
+    border: 1px solid #d6d6d677;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 50px;
+}
+#content{
+    margin-right: 50px;
+}
+#linkedin{
+    color: rgb(3, 52, 184);
+}
+#instagram{
+    color: rgb(160, 16, 52);
+}
+
+
